@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TrainingExercises</string>
+    <string name="submit_quiz_button_text">Submit Quiz</string>
+
+    <string name="feedback_collection">Feedbacks</string>
+    <string name="feedback_submitted_message">Feedback submitted!</string>
+    <string name="feedback_error_message">Feedback could not be submitted!</string>
+    <string name="questions_error_message">Questions could not be found</string>
+
+    <string name="loading_questions_message">Loading Questions</string>
+    <string name="loading_submit_message">Submit Answers</string>
+
+    <string name="feedback_page_title">Submit Answers</string>
+
+    <string name="client_id" tools:ignore="TypographyDashes">f18911a7-8147-40c4-bd87-26636326f8d1</string>
+    <string name="client_secret">E3nP5lG7dJ6pU8yX7iJ0kA1lW5fY7vH0jD3iX7mD8jU5oN0sN8</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

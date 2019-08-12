@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_shadow"
+        android:padding="16dp">
+
+    <TextView
+            android:id = "@+id/question_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/color_black"
+            android:layout_marginBottom="12dp"
+            android:text="Question"/>
+
+    <com.github.okdroid.checkablechipview.CheckableChipView
+            android:id="@+id/response1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/color_black"
+            android:color="@color/colorPrimary"
+            android:layout_marginBottom="12dp"
+            app:ccv_checkedTextColor="@color/color_white"/>
+
+    <com.github.okdroid.checkablechipview.CheckableChipView
+            android:id="@+id/response2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/color_black"
+            android:color="@color/colorPrimary"
+            android:layout_marginBottom="12dp"
+            app:ccv_checkedTextColor="@color/color_white"/>
+
+    <com.github.okdroid.checkablechipview.CheckableChipView
+            android:id="@+id/response3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/color_black"
+            android:color="@color/colorPrimary"
+            android:layout_marginBottom="12dp"
+            app:ccv_checkedTextColor="@color/color_white"/>
+
+    <com.github.okdroid.checkablechipview.CheckableChipView
+            android:id="@+id/response4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/color_black"
+            android:color="@color/colorPrimary"
+            android:layout_marginBottom="12dp"
+            app:ccv_checkedTextColor="@color/color_white"/>
+
+
+</LinearLayout>
